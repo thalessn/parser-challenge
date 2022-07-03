@@ -76,9 +76,7 @@ Death causes (extracted from [source code](https://github.com/id-Software/Quake-
 
 ### Setup
 
-To run the project will be necessary to install the [Node Javascript Runtime](https://nodejs.org/en/) version > 16.15.1. and Clone this repository and open its folder.
-
-To install the dependencies, run the following command at the terminal
+To run the project will be necessary to install the [Node Javascript Runtime](https://nodejs.org/en/) version >= 16.15.1. After that, clone this repository and open its folder. To install the dependencies, run the following command at the terminal
 
 ```
 npm install
@@ -87,7 +85,7 @@ npm install
 ### Run
 
 #### -- Log file --
-The program will default search for the file with the name **qgames.log** in the root directory. If you want to change this behavior, open up src/index.ts and change where *** Log file name *** is in the example below.
+The program will default search for the file with the name **qgames.log** in the root directory. If you want to change this behavior, open up src/index.ts and change where *** Log file name *** is like the example below.
 
 ```javascript
 (async (): Promise<void> => {
